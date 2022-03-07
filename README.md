@@ -13,7 +13,7 @@ sudo mysql --execute='source /vagrant/cogip/database/cogip.sql'
 sudo mysql --execute="ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'root';"
 ```
 
-These lines run the CREATE TABLES SQL file to build the DB and changes the root password in order to fit the dbconnect() function of the website :
+These lines run the CREATE TABLES SQL file to build the DB and change the root password in order to fit the dbconnect() function of the website :
 
 *VagrantCogip/cogip/database/connection.php*
 
