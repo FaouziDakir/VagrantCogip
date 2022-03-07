@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteRule ^([a-zA-Z0-9-_/]*)$ index.php?id=$1 [QSA,L]
+#RewriteRule ^apache-redirect-http-to-https\.html$ https://localhost:4568/apache-redirect-http-to-https.html [R=301,L]
+#RewriteCond %{HTTPS} off
+#RewriteRule ^(.*)$ https://localhost:4568/$1 [L,R=301]
